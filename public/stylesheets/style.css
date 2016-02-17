@@ -1,11 +1,19 @@
-html,body { 
-  height:100%; 
+html,body {
+  height:100%;
   overflow: hidden;
   margin: 0;
 }
 
 .center-this {
   text-align: center;
+}
+
+.jumbotron {
+  min-width: 1140px;
+}
+
+.row {
+  min-width: 1000px;
 }
 
 #title {
@@ -109,25 +117,25 @@ img {
 .cloud {
   width: 200px; height: 60px;
   background: #fff;
-  
+
   border-radius: 200px;
   -moz-border-radius: 200px;
   -webkit-border-radius: 200px;
-  
-  position: relative; 
+
+  position: relative;
 }
 
 .cloud:before, .cloud:after {
   content: '';
-  position: absolute; 
+  position: absolute;
   background: #fff;
   width: 100px; height: 80px;
   position: absolute; top: -15px; left: 10px;
-  
+
   border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
-  
+
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg);
   -moz-transform: rotate(30deg);
@@ -184,7 +192,7 @@ img {
 
 #cloud-5 {
   left: 300px; top: -150px;
-  
+
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   transform: scale(0.8);
@@ -199,7 +207,7 @@ img {
   top: -75px;
   -webkit-animation: moveobjects 14s linear infinite;
   -moz-animation: moveobjects 14s linear infinite;
-  -o-animation: moveobjects 14s linear infinite; 
+  -o-animation: moveobjects 14s linear infinite;
 }
 
 @-webkit-keyframes moveobjects {
